@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-ec808ebb.js";/* empty css               */const n=document.querySelector("#text"),e=document.querySelector("#font-size-control"),o=()=>{let t=`${Number(e.value)}px`;return n.style.fontSize=t};e.addEventListener("change",o);

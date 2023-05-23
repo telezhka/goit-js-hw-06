@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-ec808ebb.js";/* empty css               */function o(){return`#${Math.floor(Math.random()*16777215).toString(16).padStart(6,0)}`}const t=document.querySelector("body"),e=document.querySelector(".change-color"),n=document.querySelector(".color"),r=()=>{console.log(o()),t.style.backgroundColor=o(),n.innerHTML=o()};e.addEventListener("click",r);
